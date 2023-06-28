@@ -1,5 +1,10 @@
+.App {
+  text-align: center;
+}
+
 header {
   height: 100px;
+  width: 100%;
   background-color: burlywood;
 
   h2 {
@@ -13,6 +18,31 @@ header {
   }
 }
 
-img {
-  width: 250px;
+// Dogs.tsx
+.dog-imgs-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .dog-img-card {
+    margin: 5px;
+    width: 190px;
+    border: 1px solid #000;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+
+    img {
+      width: 180px;
+      height: 150px;
+      object-fit: cover;
+      border: 1px solid #000;
+    }
+
+    h4 {
+      // background-color: antiquewhite;
+      margin: 10px 0;
+    }
+  }
 }

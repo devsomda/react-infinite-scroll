@@ -7,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h2>🐶 Lovely Fluffy Dogy 🐶</h2>
+        <h2>🐶 Lovely Fluffy Doggy 🐶</h2>
       </header>
+      <h3>강아지를 무한대로 즐겨요!</h3>
       <Dogs />
     </div>
   );
